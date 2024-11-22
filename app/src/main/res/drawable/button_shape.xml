@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/button_square.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#403eef"/>
+
+    <stroke
+        android:width="5px"
+        android:color="#403eef"/>
+
+    <corners android:radius="100dp"/>
+</shape>
