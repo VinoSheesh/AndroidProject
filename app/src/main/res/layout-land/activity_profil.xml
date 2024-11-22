@@ -127,11 +127,10 @@
                 android:text="Profil Saya"
                 android:fontFamily="@font/roboto_medium"
                 android:textSize="26sp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="16dp"
                 android:textColor="#403eef"
                 android:textAlignment="center"/>
 
-            <!-- Row for NIS -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -311,10 +310,10 @@
         android:layout_margin="24dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
-        app:layout_constraintBottom_toBottomOf="@id/cardProfile"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/cardProfile"
-        app:layout_constraintTop_toTopOf="@+id/cardProfile">
+        app:layout_constraintTop_toBottomOf="@+id/cardHeader">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -326,11 +325,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Informasi Saya"
                 android:textAlignment="center"
                 android:textColor="#403eef"
-                android:textSize="26sp"
-                android:fontFamily="@font/roboto_medium"/>
+                android:textSize="26sp" />
 
             <!-- Row for NIS -->
             <LinearLayout
