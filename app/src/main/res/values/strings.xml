@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PJBL_Vino</string>
+    <string-array name="Ekstra">
+        <item>VIBAS</item>
+        <item>KIR MADING</item>
+        <item>ELVISKA</item>
+        <item>NAVISKA</item>
+        <item>KOPRAMSEGA</item>
+        <item>FUTSAL</item>
+        <item>VIVOHASKA</item>
+    </string-array>
+    <string-array name="suhu">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>
